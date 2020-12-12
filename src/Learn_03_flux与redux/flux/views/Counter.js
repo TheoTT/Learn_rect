@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import CounterStore from '../store/CounterStore';
-import * as Actions from '../Actions.js'
+import * as Actions from '../../redux/Actions.js'
 
 const buttonStyle = {
     margin: '10px'

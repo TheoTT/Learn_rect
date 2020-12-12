@@ -26,9 +26,9 @@ class Summary extends Component {
     this.setState({sum: SummaryStore.getSummary()})
   };
 
-  componentDidMount(){
-      SummaryStore.addListener(this.onUpdate)
-  };
+  // componentDidMount(){
+  //     SummaryStore.addListener(this.onUpdate)
+  // };
 
   componentWillUnmount(){
       SummaryStore.removeAllListeners(this.onUpdate)

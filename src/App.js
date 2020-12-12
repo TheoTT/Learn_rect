@@ -1,8 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import './learn_02_props与state使用/ControlPanel.js'
-import ControlPanel from './learn_02_props与state使用/ControlPanel.js';
-// import ControlPanel from './Learn_03_flux与redux/views/ControlPanel.js'
+// import ControlPanel from './learn_02_props与state使用/ControlPanel.js';
+// import ControlPanel from './Learn_03_flux与redux/flux/views/ControlPanel.js'
+import ControlPanel from './Learn_03_flux与redux/redux/views/ControlPanel.js'
+
 
 
 function App() {
